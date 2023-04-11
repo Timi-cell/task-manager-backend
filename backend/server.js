@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://task-app-aexs.onrender.com/"],
+    origin: ["http://localhost:3000", "https://task-app-odld.onrender.com"],
   })
 );
 app.use("/api/tasks", taskRoutes);
